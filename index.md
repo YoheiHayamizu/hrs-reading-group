@@ -7,10 +7,14 @@ archive_list: Previous Paper Reading Sessions
 ---
 
 <!-- Upcoming papers -->
--  LEAGUE: Guided Skill Learning and Abstraction for Long-Horizon Manipulation
-    - Date: 1-2 p.m., 09/18/2023
+-  Robot Parkour Learning
+    - Date: 1-2 p.m., 09/25/2023
     - Location: N09, EB
-    - Leader: Yan Ding
-    - Title: LEAGUE: Guided Skill Learning and Abstraction for Long-Horizon Manipulation
-    - Authors: Shuo Cheng, Danfei Xu
-    - [Paper Link](https://arxiv.org/abs/2210.12631)
+    - Leader: David Defazio
+    - Title: Robot Parkour Learning
+    - Authors: Ziwen Zhuang, Zipeng Fu, Jianren Wang, Christopher Atkeson, Sören Schwertfeger, Chelsea Finn, and Hang Zhao
+    - Venue: CoRL, 2023
+    - [Paper Link](https://openreview.net/pdf?id=uo937r5eTE)
+    - [Twitter Link](https://twitter.com/zipengfu/status/1701316023612219445?s=46&t=Yy3oCOkmnnlpnDf3lF-LCA)
+
+- ...
