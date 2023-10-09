@@ -6,12 +6,12 @@ upcoming_list: Reading List
 archive_list: Previous Paper Reading Sessions
 ---
 
-- Date: 1-2 p.m., 10/09/2023
+- Date: 1-2 p.m., 10/16/2023
 - Location: N09, EB ([zoom link](https://binghamton.zoom.us/j/93913604594))
 
 <!-- Upcoming papers -->
 - Open X-Embodiment: Robotic Learning Datasets and RT-X Models
-    - Date: 1-2 p.m., 10/09/2023
+    - Date: 1-2 p.m., 10/16/2023
     - Location: N09, EB
     - Leader: Yan Ding
     - Title: Open X-Embodiment: Robotic Learning Datasets and RT-X Models
