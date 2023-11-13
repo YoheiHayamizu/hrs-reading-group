@@ -11,24 +11,25 @@ archive_list: Previous Paper Reading Sessions
 
 <!-- Upcoming papers -->
 
-- Video Language Planning
-    - Date: 1-2 p.m., 11/06/2023
+- Eureka: Human-Level Reward Design via Coding Large Language Models
+    - Date: 1-2 p.m., 11/20/2023
     - Location: N09, EB
-    - Leader: Zainab
-    - Title: Video Language Planning
-    - Authors: Yilun Du, Mengjiao Yang, Pete Florence, Fei Xia, Ayzaan Wahid, Brian Ichter, Pierre Sermanet, Tianhe Yu, Pieter Abbeel, Joshua B. Tenenbaum, Leslie Kaelbling, Andy Zeng, Jonathan Tompson
-    - Venue: CVPR, 2023
-    - [Paper Link](https://arxiv.org/abs/2310.10625)
+    - Leader: Xiaohan Zhang
+    - Title: Eureka: Human-Level Reward Design via Coding Large Language Models
+    - Authors: Yecheng Jason Ma, William Liang, Guanzhi Wang, De-An Huang, Osbert Bastani, Dinesh Jayaraman, Yuke Zhu, Linxi Fan, Anima Anandkumar
+    - Venue: Arxiv
+    - [Paper Link](https://eureka-research.github.io/assets/eureka_paper.pdf)
+    - [Github Link](https://eureka-research.github.io/)
 
-- VIMA: General Robot Manipulation with Multimodal Prompts
-    - Date: 1-2 p.m., ??/??/2023
+- NOIR: Neural Signal Operated Intelligent Robots for Everyday Activities
+    - Date: 1-2 p.m., 12/04/2023
     - Location: N09, EB
-    - Leader: ???
-    - Title: VIMA: General Robot Manipulation with Multimodal Prompts
-    - Authors: Yunfan Jiang, Agrim Gupta, Zichen Zhang, Guanzhi Wang, Yongqiang Dou, Yanjun Chen, Li Fei-Fei, Anima Anandkumar, Yuke Zhu, and Linxi Fan
-    - Venue: ICML, 2023
-    - [Paper Link](https://arxiv.org/abs/2210.03094)
-    - [Github Link](https://vimalabs.github.io/)
+    - Leader: Yohei Hayamizu
+    - Title: NOIR: Neural Signal Operated Intelligent Robots for Everyday Activities
+    - Authors: Ruohan Zhang, Sharon Lee, Minjune Hwang, Ayano Hiranaka, Chen Wang, Wensi Ai, Jin Jie Ryan Tan, Shreya Gupta, Yilun Hao, Gabrael Levine, Ruohan Gao, Anthony Norcia, Li Fei-Fei, Jiajun Wu
+    - Venue: CoRL, 2023
+    - [Paper Link](https://openreview.net/pdf?id=eyykI3UIHa)
+    - [Github Link](https://noir-corl.github.io/)
 
 - Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
     - [Paper Link](https://diffusion-policy.cs.columbia.edu/)
