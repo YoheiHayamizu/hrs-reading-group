@@ -11,15 +11,15 @@ archive_list: Previous Paper Reading Sessions
 
 <!-- Upcoming papers -->
 
-- NOIR: Neural Signal Operated Intelligent Robots for Everyday Activities
-    - Date: 1-2 p.m., 12/04/2023
+- VIMA: General Robot Manipulation with Multimodal Prompts
+    - Date: 1-2 p.m., 12/042023
     - Location: N09, EB
-    - Leader: Yohei Hayamizu
-    - Title: NOIR: Neural Signal Operated Intelligent Robots for Everyday Activities
-    - Authors: Ruohan Zhang, Sharon Lee, Minjune Hwang, Ayano Hiranaka, Chen Wang, Wensi Ai, Jin Jie Ryan Tan, Shreya Gupta, Yilun Hao, Gabrael Levine, Ruohan Gao, Anthony Norcia, Li Fei-Fei, Jiajun Wu
-    - Venue: CoRL, 2023
-    - [Paper Link](https://openreview.net/pdf?id=eyykI3UIHa)
-    - [Github Link](https://noir-corl.github.io/)
+    - Leader: Yang Ding
+    - Title: VIMA: General Robot Manipulation with Multimodal Prompts
+    - Authors: Yunfan Jiang, Agrim Gupta, Zichen Zhang, Guanzhi Wang, Yongqiang Dou, Yanjun Chen, Li Fei-Fei, Anima Anandkumar, Yuke Zhu, and Linxi Fan
+    - Venue: ICML, 2023
+    - [Paper Link](https://arxiv.org/abs/2210.03094)
+    - [Github Link](https://vimalabs.github.io/)
 
 - Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
     - [Paper Link](https://diffusion-policy.cs.columbia.edu/)
