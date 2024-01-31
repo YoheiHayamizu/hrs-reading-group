@@ -6,20 +6,17 @@ upcoming_list: Reading List
 archive_list: Previous Paper Reading Sessions
 ---
 
-- Date: 1-2 p.m., 11/06/2023
-- Location: N09, EB ([zoom link](https://binghamton.zoom.us/j/93913604594))
+- Date: 11-12 p.m. (EST), Tuesday
+- Location: N09, EB ([zoom link](https://binghamton.zoom.us/j/93913604594) if needed)
 
 <!-- Upcoming papers -->
 
-- NOIR: Neural Signal Operated Intelligent Robots for Everyday Activities
-    - Date: 1-2 p.m., 12/04/2023
-    - Location: N09, EB
-    - Leader: Yohei Hayamizu
-    - Title: NOIR: Neural Signal Operated Intelligent Robots for Everyday Activities
-    - Authors: Ruohan Zhang, Sharon Lee, Minjune Hwang, Ayano Hiranaka, Chen Wang, Wensi Ai, Jin Jie Ryan Tan, Shreya Gupta, Yilun Hao, Gabrael Levine, Ruohan Gao, Anthony Norcia, Li Fei-Fei, Jiajun Wu
-    - Venue: CoRL, 2023
-    - [Paper Link](https://openreview.net/pdf?id=eyykI3UIHa)
-    - [Github Link](https://noir-corl.github.io/)
+- An LLM can Fool Itself: A Prompt-Based Adversarial Attack
+    - Leader: Zainab Altaweel
+    - Title: An LLM can Fool Itself: A Prompt-Based Adversarial Attack
+    - Authors: Xilie Xu, Keyi Kong, Ning Liu, Lizhen Cui, Di Wang, Jingfeng Zhang, Mohan Kankanhalli
+    - Venue: Arxiv, 2023
+    - [Paper Link](https://arxiv.org/pdf/2310.13345.pdf)
 
 - Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
     - [Paper Link](https://diffusion-policy.cs.columbia.edu/)
