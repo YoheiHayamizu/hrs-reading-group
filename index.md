@@ -11,12 +11,14 @@ archive_list: Previous Paper Reading Sessions
 
 <!-- Upcoming papers -->
 
-- An LLM can Fool Itself: A Prompt-Based Adversarial Attack
-    - Leader: Zainab Altaweel
+- Learning to See Physical Properties with Active Sensing Motor Policies
+    - Leader: Daivid Defazio.
     - Title: An LLM can Fool Itself: A Prompt-Based Adversarial Attack
-    - Authors: Xilie Xu, Keyi Kong, Ning Liu, Lizhen Cui, Di Wang, Jingfeng Zhang, Mohan Kankanhalli
+    - Authors: Gabriel B. Margolis, Xiang Fu, Yandong Ji, Pulkit Agrawal
     - Venue: Arxiv, 2023
-    - [Paper Link](https://arxiv.org/pdf/2310.13345.pdf)
+    - [Paper Link](https://arxiv.org/abs/2311.01405)
+- True Knowledge Comes from Practice: Aligning LLMs with Embodied Environments via Reinforcement Learning
+    - [Paper Link](https://arxiv.org/abs/2401.14151)
 
 - Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
     - [Paper Link](https://diffusion-policy.cs.columbia.edu/)
