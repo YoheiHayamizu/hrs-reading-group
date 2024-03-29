@@ -11,16 +11,11 @@ archive_list: Previous Paper Reading Sessions
 
 <!-- Upcoming papers -->
 
-- Universal and Transferable Adversarial Attacks on Aligned Language Models
-    - Authors: Andy Zou, Zifan Wang, Nicholas Carlini, Milad Nasr, J. Zico Kolter, Matt Fredrikson
-    - Venue: Arxiv, 2023
-    - [Paper Link](https://arxiv.org/abs/2307.15043)
-    - Leader: Zainab Altaweel
-
-- True Knowledge Comes from Practice: Aligning LLMs with Embodied Environments via Reinforcement Learning
-    - Authors: Weihao Tan, Wentao Zhang, Shanqi Liu, Longtao Zheng, Xinrun Wang, Bo An
+- Towards Robotic Companions: Understanding Handler-Guide DogInteractions for Informed Guide Dog Robot Design
+    - Authors: Hochul Hwang, Hee-Tae Jung, Nicholas A Giudice, Joydeep Biswas, Sunghoon Ivan Lee, Donghyun Kim
     - Venue: Arxiv
-    - [Paper Link](https://arxiv.org/abs/2401.14151)
+    - [Paper Link](https://arxiv.org/abs/2402.06790)
+    - Leader: David DeFazio
 
 - Vision-Language Foundation Models as Effective Robot Imitators
     - Authors: Xinghang Li, Minghuan Liu, Hanbo Zhang, Cunjun Yu, Jie Xu, Hongtao Wu, Chilam Cheang, Ya Jing, Weinan Zhang, Huaping Liu, Hang Li, Tao Kong
