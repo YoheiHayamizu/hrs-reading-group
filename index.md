@@ -6,8 +6,12 @@ upcoming_list: Reading List
 archive_list: Previous Paper Reading Sessions
 ---
 
-- Date: 4/5 10-11 am
-- Location: N09, EB ([zoom link](https://binghamton.zoom.us/j/93913604594) if needed)
+This fall 2024, we will meet every other Friday from 11-1 pm in N09, EB. The first meeting will be on 8/26.
+We will discuss papers on a variety of topics in AI and robotics, including but not limited to, computer vision, natural language processing, and reinforcement learning.
+Pizza will be provided at each meeting for lunch.
+
+- Date: 8/26 11-1 pm
+- Location: N09, EB
 
 <!-- Upcoming papers -->
 
