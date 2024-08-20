@@ -11,12 +11,6 @@ archive_list: Previous Paper Reading Sessions
 
 <!-- Upcoming papers -->
 
-- LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers
-    - Venue: EMNLP 2023
-    - Title: LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers
-    - Authors: Theo X. Olausson, Alex Gu, Benjamin Lipkin, Cedegao E. Zhang, Armando Solar-Lezama, Joshua B. Tenenbaum, Roger Levy
-    - Leader: Zainab
-    - [Paper Link](https://arxiv.org/abs/2310.15164)
 
 <!-- - Vision-Language Foundation Models as Effective Robot Imitators
     - Authors: Xinghang Li, Minghuan Liu, Hanbo Zhang, Cunjun Yu, Jie Xu, Hongtao Wu, Chilam Cheang, Ya Jing, Weinan Zhang, Huaping Liu, Hang Li, Tao Kong
