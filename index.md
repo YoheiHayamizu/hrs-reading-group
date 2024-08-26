@@ -6,14 +6,19 @@ upcoming_list: Reading List
 archive_list: Previous Paper Reading Sessions
 ---
 
-This fall 2024, we will meet every other Friday from 11-1 pm in N09, EB. The first meeting will be on 8/26.
+This fall 2024, we will meet every other Friday from 11-12 pm in N09, EB. The first meeting will be on 9/2.
 We will discuss papers on a variety of topics in AI and robotics, including but not limited to, computer vision, natural language processing, and reinforcement learning.
 Pizza will be provided at each meeting for lunch.
 
-- Date: 8/26 11-1 pm
+- Date: 9/2 11-12 pm
 - Location: N09, EB
 
 <!-- Upcoming papers -->
+
+- Advancing Humanoid Locomotion: Mastering Challenging Terrains with Denoising World Model Learning
+    - Authors: Xinyang Gu, Yen-Jen Wang, Xiang Zhu, Chengming Shi, Yanjiang Guo, Yichen Liu, Jianyu Chen
+    - Venue: RSS 2024
+    - [Paper Link](https://enriquecoronadozu.github.io/rssproceedings2024/rss20/p058.pdf)
 
 
 <!-- - Vision-Language Foundation Models as Effective Robot Imitators
