@@ -10,17 +10,16 @@ This fall 2024, we will meet every other Friday from 11-12 pm in N09, EB. The fi
 We will discuss papers on a variety of topics in AI and robotics, including but not limited to, computer vision, natural language processing, and reinforcement learning.
 Pizza will be provided at each meeting for lunch.
 
-- Date: 9/9 11-12 pm
+- Date: 9/16 11-12 pm
 - Location: N09, EB
 
 <!-- Upcoming papers -->
 
-- TeleMoMa A Modular and Versatile Teleoperation System for Mobile Manipulation
-    - Venue: ICRA Workshop MoMa 2024
-    - Title: TeleMoMa A Modular and Versatile Teleoperation System for Mobile Manipulation
-    - Authors: Shivin Dass, Wensi Ai, Yuqian Jiang, Samik Singh, Jiaheng Hu, Ruohan Zhang, Peter Stone, Ben Abbatematteo, Roberto Martín-Martín
-    - Leader: Yohei
-    - [Paper Link](https://robin-lab.cs.utexas.edu/telemoma-web/)
+- BadAgent: Inserting and Activating Backdoor Attacks in LLM Agents
+    - Authors: Yifei Wang, Dizhan Xue, Shengjie Zhang, Shengsheng Qian
+    - Venue: ACL 2024
+    - Leader: Zainab
+    - [Paper Link](https://arxiv.org/abs/2406.03007)
 
 <!-- - Vision-Language Foundation Models as Effective Robot Imitators
     - Authors: Xinghang Li, Minghuan Liu, Hanbo Zhang, Cunjun Yu, Jie Xu, Hongtao Wu, Chilam Cheang, Ya Jing, Weinan Zhang, Huaping Liu, Hang Li, Tao Kong
