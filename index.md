@@ -15,11 +15,11 @@ Pizza will be provided at each meeting for lunch.
 
 <!-- Upcoming papers -->
 
-- BadAgent: Inserting and Activating Backdoor Attacks in LLM Agents
-    - Authors: Yifei Wang, Dizhan Xue, Shengjie Zhang, Shengsheng Qian
-    - Venue: ACL 2024
-    - Leader: Zainab
-    - [Paper Link](https://arxiv.org/abs/2406.03007)
+- BadChain: Backdoor Chain-of-Thought Prompting for Large Language Models
+  - Authors: Zhen Xiang, Fengqing Jiang, Zidi Xiong, Bhaskar Ramasubramanian, Radha Poovendran, Bo Li
+  - Venue: ICLR 2024
+  - Leader: Zainab
+  - [Paper Link](https://openreview.net/forum?id=c93SBwz1Ma)
 
 <!-- - Vision-Language Foundation Models as Effective Robot Imitators
     - Authors: Xinghang Li, Minghuan Liu, Hanbo Zhang, Cunjun Yu, Jie Xu, Hongtao Wu, Chilam Cheang, Ya Jing, Weinan Zhang, Huaping Liu, Hang Li, Tao Kong
