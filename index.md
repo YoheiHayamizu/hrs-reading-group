@@ -14,11 +14,12 @@ Pizza will be provided at each meeting for lunch.
 - Location: N09, EB
 
 <!-- Upcoming papers -->
-- Autonomous Field Navigation of Mobile Robots for Data Collection and Monitoring in Agricultural Crop Fields
-  - Authors: Yuan Wei; Kangneoung Lee; Kiju Lee
-  - Venue: ICLR 2024
-  - Leader: Huan
-  - [Paper Link](https://ieeexplore.ieee.org/abstract/document/10597470)
+- Plug in the Safety Chip: Enforcing Constraints for LLM-driven Robot Agents
+    - Authors: Ziyi Yang, Shreyas S. Raman, Ankit Shah, Stefanie Tellex
+    - Learder: Zainab
+    - [Paper Link](https://arxiv.org/abs/2309.09919)
+
+
 
 <!-- - Vision-Language Foundation Models as Effective Robot Imitators
     - Authors: Xinghang Li, Minghuan Liu, Hanbo Zhang, Cunjun Yu, Jie Xu, Hongtao Wu, Chilam Cheang, Ya Jing, Weinan Zhang, Huaping Liu, Hang Li, Tao Kong
