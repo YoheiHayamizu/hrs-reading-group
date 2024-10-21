@@ -14,12 +14,10 @@ Pizza will be provided at each meeting for lunch.
 - Location: N09, EB
 
 <!-- Upcoming papers -->
-- Plug in the Safety Chip: Enforcing Constraints for LLM-driven Robot Agents
-    - Authors: Ziyi Yang, Shreyas S. Raman, Ankit Shah, Stefanie Tellex
-    - Learder: Zainab
-    - [Paper Link](https://arxiv.org/abs/2309.09919)
-
-
+- Scaling Cross-Embodied Learning: One Policy for Manipulation, Navigation, Locomotion and Aviation
+    - Authors: Ria Doshi, Homer Walke, Oier Mees, Sudeep Dasari, Sergey Levine
+    - Leader: Dave
+    - [Paper Link](https://arxiv.org/abs/2408.11812)
 
 <!-- - Vision-Language Foundation Models as Effective Robot Imitators
     - Authors: Xinghang Li, Minghuan Liu, Hanbo Zhang, Cunjun Yu, Jie Xu, Hongtao Wu, Chilam Cheang, Ya Jing, Weinan Zhang, Huaping Liu, Hang Li, Tao Kong
