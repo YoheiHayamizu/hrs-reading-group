@@ -10,14 +10,14 @@ This fall 2024, we will meet every other Friday from 12-1 pm in N09, EB. The fir
 We will discuss papers on a variety of topics in AI and robotics, including but not limited to, computer vision, natural language processing, and reinforcement learning.
 Pizza will be provided at each meeting for lunch.
 
-- Date: 12-1 p.m., 09/30/2024
+- Date: 12-1 p.m., 11/11/2024
 - Location: N09, EB
 
 <!-- Upcoming papers -->
-- Scaling Cross-Embodied Learning: One Policy for Manipulation, Navigation, Locomotion and Aviation
-    - Authors: Ria Doshi, Homer Walke, Oier Mees, Sudeep Dasari, Sergey Levine
-    - Leader: Dave
-    - [Paper Link](https://arxiv.org/abs/2408.11812)
+- Learned Visual Navigation for Under-Canopy Agricultural Robots
+    - Authors: Arun Narenthiran Sivakumar, Sahil Modi, Mateus Valverde Gasparino, Che Ellis, Andres Eduardo Baquero Velasquez, Girish Chowdhary, Saurabh Gupta
+    - Leader: Huan
+    - [Paper Link](https://arxiv.org/abs/2107.02792)
 
 <!-- - Vision-Language Foundation Models as Effective Robot Imitators
     - Authors: Xinghang Li, Minghuan Liu, Hanbo Zhang, Cunjun Yu, Jie Xu, Hongtao Wu, Chilam Cheang, Ya Jing, Weinan Zhang, Huaping Liu, Hang Li, Tao Kong
