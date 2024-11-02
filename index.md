@@ -19,6 +19,11 @@ Pizza will be provided at each meeting for lunch.
     - Leader: Huan
     - [Paper Link](https://arxiv.org/abs/2107.02792)
 
+- "I am the follower, also the boss": Exploring Different Levels of Autonomy and Machine Forms of Guiding Robots for the Visually Impaired
+    - Authors: Yan Zhang, Ziang Li, Haole Guo, Luyao Wang, Qihe Chen, Wenjie Jiang, Mingming Fan, Guyue Zhou, Jiangtao GongAuthors Info & Claims
+    - Leader: Dave
+    - [Paper Link](https://dl.acm.org/doi/full/10.1145/3544548.3580884)
+
 <!-- - Vision-Language Foundation Models as Effective Robot Imitators
     - Authors: Xinghang Li, Minghuan Liu, Hanbo Zhang, Cunjun Yu, Jie Xu, Hongtao Wu, Chilam Cheang, Ya Jing, Weinan Zhang, Huaping Liu, Hang Li, Tao Kong
     - Venue: Arxiv
