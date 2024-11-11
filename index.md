@@ -14,10 +14,11 @@ Pizza will be provided at each meeting for lunch.
 - Location: N09, EB
 
 <!-- Upcoming papers -->
-- Learned Visual Navigation for Under-Canopy Agricultural Robots
-    - Authors: Arun Narenthiran Sivakumar, Sahil Modi, Mateus Valverde Gasparino, Che Ellis, Andres Eduardo Baquero Velasquez, Girish Chowdhary, Saurabh Gupta
-    - Leader: Huan
-    - [Paper Link](https://arxiv.org/abs/2107.02792)
+
+- OKAMI: Teaching Humanoid Robots Manipulation Skills through Single Video Imitation
+    - Authors: Jinhan Li, Yifeng Zhu, Yuqi Xie, Zhenyu Jiang, Mingyo Seo, Georgios Pavlakos, Yuke Zhu
+    - Leader: Shiqi
+    - [Paper Link](https://ut-austin-rpl.github.io/OKAMI/)
 
 - "I am the follower, also the boss": Exploring Different Levels of Autonomy and Machine Forms of Guiding Robots for the Visually Impaired
     - Authors: Yan Zhang, Ziang Li, Haole Guo, Luyao Wang, Qihe Chen, Wenjie Jiang, Mingming Fan, Guyue Zhou, Jiangtao GongAuthors Info & Claims
