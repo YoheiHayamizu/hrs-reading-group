@@ -14,16 +14,11 @@ Pizza will be provided at each meeting for lunch.
 - Location: N09, EB
 
 <!-- Upcoming papers -->
+- Open-World Task and Motion Planning via Vision-Language Model Inferred Constraints
+    - Authors: Nishanth Kumar, Fabio Ramos, Dieter Fox, Caelan Reed Garrett
+    - Venue: CoRL 2024 Workshop
+    - [Paper Link](https://arxiv.org/abs/2411.08253)
 
-- OKAMI: Teaching Humanoid Robots Manipulation Skills through Single Video Imitation
-    - Authors: Jinhan Li, Yifeng Zhu, Yuqi Xie, Zhenyu Jiang, Mingyo Seo, Georgios Pavlakos, Yuke Zhu
-    - Leader: Shiqi
-    - [Paper Link](https://ut-austin-rpl.github.io/OKAMI/)
-
-- "I am the follower, also the boss": Exploring Different Levels of Autonomy and Machine Forms of Guiding Robots for the Visually Impaired
-    - Authors: Yan Zhang, Ziang Li, Haole Guo, Luyao Wang, Qihe Chen, Wenjie Jiang, Mingming Fan, Guyue Zhou, Jiangtao GongAuthors Info & Claims
-    - Leader: Dave
-    - [Paper Link](https://dl.acm.org/doi/full/10.1145/3544548.3580884)
 
 <!-- - Vision-Language Foundation Models as Effective Robot Imitators
     - Authors: Xinghang Li, Minghuan Liu, Hanbo Zhang, Cunjun Yu, Jie Xu, Hongtao Wu, Chilam Cheang, Ya Jing, Weinan Zhang, Huaping Liu, Hang Li, Tao Kong
