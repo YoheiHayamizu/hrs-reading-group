@@ -14,12 +14,6 @@ Pizza will be provided at each meeting for lunch.
 - Location: N09, EB
 
 <!-- Upcoming papers -->
-- Open-World Task and Motion Planning via Vision-Language Model Inferred Constraints
-    - Authors: Nishanth Kumar, Fabio Ramos, Dieter Fox, Caelan Reed Garrett
-    - Venue: CoRL 2024 Workshop
-    - [Paper Link](https://arxiv.org/abs/2411.08253)
-
-
 <!-- - Vision-Language Foundation Models as Effective Robot Imitators
     - Authors: Xinghang Li, Minghuan Liu, Hanbo Zhang, Cunjun Yu, Jie Xu, Hongtao Wu, Chilam Cheang, Ya Jing, Weinan Zhang, Huaping Liu, Hang Li, Tao Kong
     - Venue: Arxiv
