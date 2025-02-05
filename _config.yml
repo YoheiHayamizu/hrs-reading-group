@@ -28,3 +28,17 @@ header_pages: # Add links to pages in the site header
   - research.md
   - publications.md
   - tags.md
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      paper_type: "Research Paper"
+
+# Add collections for different types of content
+collections:
+  reading_sessions:
+    output: true
+    permalink: /sessions/:path/

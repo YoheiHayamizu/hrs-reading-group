@@ -1,35 +1,133 @@
 ---
 layout: base
 ---
-
 <div class="home">
   {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  <h2 class="post-list-heading">{{ page.upcoming_list | default: "Reading List" }}</h2>
-  {{ content }}
+  <section class="intro-section card">
+    {{ content }}
+  </section>
 
-  <hr>
+  <!-- Upcoming Papers Section -->
+  <section class="papers-section">
+    <h2 class="section-heading">{{ page.upcoming_list | default: "Upcoming Reading List" }}</h2>
 
-  {%- if site.posts.size > 0 -%}
-  <h2 class="post-list-heading">{{ page.archive_list | default: "Previous Paper Reading Sessions" }}</h2>
-  <ul class="post-list">
-    {%- for post in site.posts -%}
-    <li>
-      {%- assign date_format = site.minima.date_format | default: "%I%P %b/%d/%Y (%a)" -%}
-      <span class="post-meta post-col-wrapper">
-        <span class="post-col post-col-1">{{ post.date | date: date_format }}</span>
-        <span class="post-col post-col-2">{{ post.location | defaulg: "Not Provided" }}</span>
-        <span class="post-col post-col-3">Leader: {{ post.leader | default: "TBD" }}</span>
-        <span class="post-col post-col-4"><a href="{{ post.url | relative_url }}">Details</a></span>
-      </span>
-      <a class="post-link" href="{{ post.link }}"> {{ post.title | escape }} </a>
-    </li>
-    {%- endfor -%}
-  </ul>
+    <div class="post-list">
+      {%- assign upcoming_papers = site.posts | where_exp: "post", "post.date >= site.time" | sort: 'date' -%}
+      {%- if upcoming_papers.size > 0 -%}
+      {%- for post in upcoming_papers -%}
+      <article class="paper-card">
+        <h3 class="paper-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h3>
 
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a></p> -->
-  {%- endif -%}
+        <div class="paper-meta">
+          <div class="meta-item">
+            <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
+              <path fill="currentColor"
+                d="M19 4h-1V3a1 1 0 0 0-2 0v1H8V3a1 1 0 0 0-2 0v1H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z" />
+            </svg>
+            {{ post.date | date: site.date_format | default: "%b %-d, %Y" }}
+          </div>
 
+          <div class="meta-item">
+            <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
+              <path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
+            </svg>
+            {{ post.location | default: "Location TBD" }}
+          </div>
+
+          <div class="meta-item">
+            <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
+              <path fill="currentColor" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z" />
+            </svg>
+            Leader: {{ post.leader | default: "TBD" }}
+          </div>
+        </div>
+
+        {%- if post.tags -%}
+        <div class="tags">
+          {%- for tag in post.tags -%}
+          <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">{{ tag }}</a>
+          {%- endfor -%}
+        </div>
+        {%- endif -%}
+
+        {%- if post.paper_link -%}
+        <div class="paper-link">
+          <a href="{{ post.paper_link }}" target="_blank" rel="noopener" class="button">View Paper</a>
+        </div>
+        {%- endif -%}
+      </article>
+      {%- endfor -%}
+      {%- else -%}
+      <p class="no-papers">No upcoming papers scheduled.</p>
+      {%- endif -%}
+    </div>
+  </section>
+
+  <!-- Previous Papers Section -->
+  <section class="papers-section">
+    <div class="section-header">
+      <h2 class="section-heading">{{ page.archive_list | default: "Previous Paper Reading Sessions" }}</h2>
+      <div class="section-controls">
+        <label for="paperLimit" class="limit-label">Show:</label>
+        <select id="paperLimit" class="paper-limit">
+          <option value="5" {% if include.limit==5 %}selected{% endif %}>5 papers</option>
+          <option value="10" {% if include.limit==10 %}selected{% endif %}>10 papers</option>
+          <option value="20" {% if include.limit==20 or include.limit==null %}selected{% endif %}>20 papers</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="post-list" id="papersList">
+      {%- assign past_papers = site.posts | where_exp: "post", "post.date < site.time" | sort: 'date' | reverse -%} {%-
+        for post in past_papers -%} <article class="paper-card">
+        <h3 class="paper-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h3>
+
+        <div class="paper-meta">
+          <div class="meta-item">
+            <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
+              <path fill="currentColor"
+                d="M19 4h-1V3a1 1 0 0 0-2 0v1H8V3a1 1 0 0 0-2 0v1H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z" />
+            </svg>
+            {{ post.date | date: site.date_format | default: "%b %-d, %Y" }}
+          </div>
+
+          <div class="meta-item">
+            <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
+              <path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
+            </svg>
+            {{ post.location | default: "Location TBD" }}
+          </div>
+
+          <div class="meta-item">
+            <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
+              <path fill="currentColor" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z" />
+            </svg>
+            Leader: {{ post.leader | default: "TBD" }}
+          </div>
+        </div>
+
+        {%- if post.tags -%}
+        <div class="tags">
+          {%- for tag in post.tags -%}
+          <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">{{ tag }}</a>
+          {%- endfor -%}
+        </div>
+        {%- endif -%}
+
+        {%- if post.paper_link -%}
+        <div class="paper-link">
+          <a href="{{ post.paper_link }}" target="_blank" rel="noopener" class="button">View Paper</a>
+        </div>
+        {%- endif -%}
+        </article>
+        {%- endfor -%}
+    </div>
+  </section>
 </div>

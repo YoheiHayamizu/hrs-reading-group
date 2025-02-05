@@ -1,44 +1,48 @@
 ---
 layout: base
 ---
-{% include posts-variables.html %}
+<article class="post">
+  <header class="post-header card">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
 
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="post-meta">
+      <div class="meta-item">
+        <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
+          <path fill="currentColor"
+            d="M19 4h-1V3a1 1 0 0 0-2 0v1H8V3a1 1 0 0 0-2 0v1H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z" />
+        </svg>
+        {{ page.date | date: site.date_format | default: "%B %-d, %Y" }}
+      </div>
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p>
-      {%- if page.authors -%}
-      <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
-          itemprop="name">{{ page.authors }}</span></span>
+      {%- if page.location -%}
+      <div class="meta-item">
+        <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
+          <path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
+        </svg>
+        {{ page.location }}
+      </div>
       {%- endif -%}
-    </p>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        Published on: {{ page.published | date: date_format }}
-      </time>
-    </p>
+
+      {%- if page.leader -%}
+      <div class="meta-item">
+        <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
+          <path fill="currentColor" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z" />
+        </svg>
+        Leader: {{ page.leader }}
+      </div>
+      {%- endif -%}
+    </div>
+
+    {%- if page.tags -%}
+    <div class="tags">
+      {%- for tag in page.tags -%}
+      <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">{{ tag }}</a>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-content card">
     {{ content }}
   </div>
-
-  {% if page.tags %}
-  <div>
-    {% for tag in page.tags %}
-    {% assign dest = tags_page.url | append: "#" | append: tag | relative_url %}
-    <a href="{{dest}}" class="tag">{{tag | escape}}</a>
-    {% endfor %}
-  </div>
-  {% endif %}
-
-
-
-  {%- if site.disqus.shortname -%}
-  {%- include disqus_comments.html -%}
-  {%- endif -%}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

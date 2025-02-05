@@ -24,6 +24,23 @@ $grey-color: $bing-gray;
 $grey-color-light: $bing-light-gray;
 $grey-color-dark: $bing-dark-gray;
 
+// Spacing
+$spacing-unit: 30px !default;
+$spacing-unit-tiny: $spacing-unit / 4 !default;    // 7.5px
+$spacing-unit-small: $spacing-unit / 2 !default;   // 15px
+$spacing-unit-large: $spacing-unit * 2 !default;   // 60px
+$spacing-unit-xlarge: $spacing-unit * 3 !default;  // 90px
+
+// Colors (existing)
+$brand-green: #005A43 !default;
+$dark-green: #004333 !default;
+$light-green: #6cc24a !default;
+
+// Layout
+$content-width: 1000px;
+$on-palm: 600px;
+$on-laptop: 800px;
+
 a.tag {
     color: $brand-color;
     background-color: $bing-pale-gray;
