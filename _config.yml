@@ -1,18 +1,16 @@
-title: Human Robot Systems (HRS)-reading group
-
+title: Human Robot Systems (HRS)-Reading Group
 author: Yohei Hayamizu
 email: yhayami1@binghamton.edu
 
 description: >-
-  We are a group of students and faculty members who are interested in human robot systems.
-  We meet every week to discuss papers related to human robot systems. We welcome anyone
-  who is interested in human robot systems.
+  We are a pioneering research group at Binghamton University focused on advancing human-robot systems.
+  Our weekly meetings bring together students and faculty to explore cutting-edge developments in robotics,
+  artificial intelligence, and human-robot interaction.
 
-baseurl: "/hrs-reading-group" # the subpath of your site, e.g. /blog
-url: "https://YoheiHayamizu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/hrs-reading-group"
+url: "https://YoheiHayamizu.github.io"
 homepage_link: https://robotics.cs.binghamton.edu/
 github_username: bu-air-lab
-# google_analytics: UA-000000-0  # replace this string with your Google Analytics tracking ID
 
 # Build settings
 markdown: kramdown
@@ -21,3 +19,12 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Custom settings
+future: true # Publish future dated posts
+show_excerpts: true # Show excerpts on the homepage
+header_pages: # Add links to pages in the site header
+  - about.md
+  - research.md
+  - publications.md
+  - tags.md
