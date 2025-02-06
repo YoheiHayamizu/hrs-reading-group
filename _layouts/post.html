@@ -6,40 +6,50 @@ layout: base
     <h1 class="post-title">{{ page.title | escape }}</h1>
 
     <div class="post-meta">
+
+      {%- if page.authors -%}
+      <div class="meta-item">
+        <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
+          <path fill="currentColor"
+            d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 18H6V4h12v16zM8 6h8v2H8V6zm0 4h8v2H8v-2zm0 4h8v2H8v-2z" />
+        </svg>
+        {{ page.authors }}
+      </div>
+      {%- endif -%}
+
+      {%- if page.published -%}
       <div class="meta-item">
         <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
           <path fill="currentColor"
             d="M19 4h-1V3a1 1 0 0 0-2 0v1H8V3a1 1 0 0 0-2 0v1H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z" />
         </svg>
-        {{ page.date | date: site.date_format | default: "%B %-d, %Y" }}
-      </div>
-
-      {%- if page.location -%}
-      <div class="meta-item">
-        <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
-          <path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
-        </svg>
-        {{ page.location }}
+        Published: {{ page.published }}
       </div>
       {%- endif -%}
 
-      {%- if page.leader -%}
+      {%- if page.venue -%}
       <div class="meta-item">
         <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
-          <path fill="currentColor" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z" />
+          <path fill="currentColor"
+            d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 18H6V4h12v16zM8 6h8v2H8V6zm0 4h8v2H8v-2zm0 4h8v2H8v-2z" />
         </svg>
-        Leader: {{ page.leader }}
+        Venue: {{ page.venue }}
       </div>
       {%- endif -%}
-    </div>
 
-    {%- if page.tags -%}
-    <div class="tags">
-      {%- for tag in page.tags -%}
-      <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">{{ tag }}</a>
-      {%- endfor -%}
-    </div>
-    {%- endif -%}
+      {%- if page.link -%}
+      <div class="meta-item">
+        <a href="{{ page.link }}" target="_blank" rel="noopener" class="button">View Paper</a>
+      </div>
+      {%- endif -%}
+
+      {%- if page.tags -%}
+      <div class="tags">
+        {%- for tag in page.tags -%}
+        <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">{{ tag }}</a>
+        {%- endfor -%}
+      </div>
+      {%- endif -%}
   </header>
 
   <div class="post-content card">

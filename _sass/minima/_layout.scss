@@ -138,7 +138,7 @@
   .paper-meta {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: $spacing-unit;
+    gap: $spacing-unit / 2;
     margin-bottom: $spacing-unit;
   }
 

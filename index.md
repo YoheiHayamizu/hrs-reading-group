@@ -4,11 +4,25 @@ layout: home
 upcoming_list: Current Reading List
 archive_list: Previous Paper Reading Sessions
 limit: 5
+include_in_nav: false
 ---
 
-This fall 2024, we will meet every other Friday from 12-1 pm in N09, EB. The first meeting will be on 9/2.
-We will discuss papers on a variety of topics in AI and robotics, including but not limited to, computer vision, natural language processing, and reinforcement learning.
-Pizza will be provided at each meeting for lunch.
+## Spring 2025 Meeting Schedule
 
-- Date: 12-1 p.m., 11/11/2024
-- Location: N09, EB
+Join us this spring for our weekly paper reading group sessions! We will meet every **Wednesday from 3:00 PM to 4:00 PM** in **N09, EB**.
+
+### First Meeting
+
+- **Date:** January 28, 2025
+- **Time:** 3:00 PM - 4:00 PM
+- **Location:** N09, EB
+
+### Topics of Discussion
+
+We will explore a wide range of topics in AI and robotics, including but not limited to:
+
+- **Computer Vision**
+- **Natural Language Processing**
+- **Reinforcement Learning**
+
+Come prepared to engage in insightful discussions and deepen your understanding of these cutting-edge fields. We look forward to seeing you there!
