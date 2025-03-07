@@ -11,12 +11,6 @@ include_in_nav: false
 
 Join us this spring for our weekly paper reading group sessions! We will meet every **Wednesday from 3:00 PM to 4:00 PM** in **N09, EB**.
 
-### First Meeting
-
-- **Date:** January 28, 2025
-- **Time:** 3:00 PM - 4:00 PM
-- **Location:** N09, EB
-
 ### Topics of Discussion
 
 We will explore a wide range of topics in AI and robotics, including but not limited to:
