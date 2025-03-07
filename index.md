@@ -23,6 +23,7 @@ Come prepared to engage in insightful discussions and deepen your understanding 
 
 
 ### Paper Reading List
-- [PersonalityChat: Conversation Distillation for Personalized Dialog Modeling with Facts and Traits](https://arxiv.org/abs/2401.07363v1)
 - [SocialDial: A Benchmark for Socially-Aware Dialogue Systems](https://dl.acm.org/doi/abs/10.1145/3539618.3591877)
+- [ACE: A LLM-based Negotiation Coaching System](https://arxiv.org/abs/2410.01555)
+- [PersonalityChat: Conversation Distillation for Personalized Dialog Modeling with Facts and Traits](https://arxiv.org/abs/2401.07363v1)
 - [Investigating Strategies for Robot Persuasion in Social Human–Robot Interaction](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9093955)
