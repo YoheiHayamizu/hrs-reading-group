@@ -27,3 +27,5 @@ Come prepared to engage in insightful discussions and deepen your understanding 
 - [PersonalityChat: Conversation Distillation for Personalized Dialog Modeling with Facts and Traits](https://arxiv.org/abs/2401.07363v1)
 - [Investigating Strategies for Robot Persuasion in Social Human–Robot Interaction](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9093955)
 - [Can We Trust Embodied Agents? Exploring Backdoor Attacks against Embodied LLM-based Decision-Making Systems](https://arxiv.org/abs/2405.20774)
+- [FlowPG: Action-constrained Policy Gradient with Normalizing Flows](http://arxiv.org/abs/2402.05149)
+- [Leveraging Constraint Violation Signals For Action-Constrained Reinforcement Learning](https://arxiv.org/abs/2502.10431)
