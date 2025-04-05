@@ -24,6 +24,9 @@
           {%- if site.homepage_link -%}
           <a class="page-link homepage-link" href="{{ site.homepage_link }}">Lab Homepage</a>
           {%- endif -%}
+          <!-- Hidden link to my_paper_lists with invisible styling -->
+          <a href="{{ site.baseurl }}/my_paper_lists" class="hidden-link"
+            style="opacity: 0.01; position: absolute; right: 5px; bottom: 5px; font-size: 8px;">My Paper Lists</a>
         </div>
       </nav>
     </div>

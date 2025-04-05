@@ -32,14 +32,24 @@ header_pages: # Add links to pages in the site header
 
 defaults:
   - scope:
-      path: ""
       type: "posts"
     values:
       layout: "post"
-      paper_type: "Research Paper"
+      # paper_type: "Research Paper"  # custom field for categorizing papers (optional)
+  - scope:
+      type: "myposts"
+    values:
+      layout: "my-paper"
+      # paper_type: "Research Paper"  # custom field for categorizing papers (optional)
 
 # Add collections for different types of content
 collections:
-  reading_sessions:
+  posts:
     output: true
-    permalink: /sessions/:path/
+    permalink: /posts/:path/
+  myposts:
+    output: true
+    permalink: /my_paper_lists/:path/
+  # reading_sessions:
+  #   output: true
+  #   permalink: /sessions/:path/
